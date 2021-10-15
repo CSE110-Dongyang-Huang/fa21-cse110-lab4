@@ -1,0 +1,2 @@
+1. The bug was caused by datatypes. `num1` and `num2` are passed in as string. While adding them, it is just concatenating two strings instead of addtion of two numbers.
+2. I fix it by typecasting `num1` and `num2` to `number`. It means the code becomes `let result = Number(num1) + Number(num2)`.
